@@ -1,0 +1,555 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"spa",
+				"word-spacing\tproperty"
+			],
+			[
+				"font-sp",
+				"font-variant-caps\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"b",
+				"bgcolor\tAttr"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"top",
+				"padding-top\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"HEAD",
+				"heading"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"WORK",
+				"WORKSHOP"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"particl",
+				"particles-js"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"boo",
+				"bottom\tproperty"
+			],
+			[
+				"min-",
+				"min-width\tproperty"
+			],
+			[
+				"backgro",
+				"background-image\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"ad",
+				"ADHYAAYA"
+			],
+			[
+				"a",
+				"autoplay"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"typ",
+				"type"
+			],
+			[
+				"backgo",
+				"background-image\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"tab",
+				"table-cell\tdisplay"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"text-de",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"text",
+				"text-align-last\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"bord",
+				"border-radius\tproperty"
+			],
+			[
+				"lsi",
+				"list-style-type\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"bore",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border-style\tproperty"
+			],
+			[
+				"backgr",
+				"background-image\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"text-",
+				"text-align-last\tproperty"
+			],
+			[
+				"2p",
+				"20px"
+			],
+			[
+				"border-",
+				"border-color\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"text-dec",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"rgb",
+				"rgb()\tcolor"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/PRANAY/Desktop/Adhyaaya webs",
+		"/C/Users/PRANAY/Desktop/Adhyaaya webs/css",
+		"/C/Users/PRANAY/Desktop/about-us",
+		"/C/Users/PRANAY/Desktop/about-us/assets",
+		"/C/Users/PRANAY/Desktop/about-us/assets/mobirise",
+		"/C/Users/PRANAY/Desktop/about-us/assets/mobirise/css",
+		"/C/Users/PRANAY/Desktop/about-us/assets/theme",
+		"/C/Users/PRANAY/Desktop/about-us/assets/theme/js"
+	],
+	"file_history":
+	[
+		"/C/Users/PRANAY/Desktop/about-us/about.html",
+		"/C/Users/PRANAY/Desktop/about-us/assets/theme/css/style.css",
+		"/C/Users/PRANAY/Desktop/about-us/assets/mobirise/css/mbr-additional.css",
+		"/C/Users/PRANAY/Desktop/about-us/index.html",
+		"/C/Users/PRANAY/Desktop/about-us/assets/web/assets/mobirise-icons/mobirise-icons.css",
+		"/C/Users/PRANAY/Desktop/about-us/assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js",
+		"/C/Users/PRANAY/Desktop/about-us/assets/theme/js/script.js",
+		"/C/Users/PRANAY/Desktop/about-us/assets/web/assets/jquery/jquery.min.js",
+		"/C/Users/PRANAY/Desktop/about-us/assets/bootstrap/js/bootstrap.min.js",
+		"/C/Users/PRANAY/Desktop/about-us/assets/bootstrap/css/bootstrap.min.css",
+		"/I/sdf/index-copy.html",
+		"/C/Users/PRANAY/Desktop/about-us/assets/bootstrap/css/bootstrap-grid.min.css",
+		"/C/Users/PRANAY/Desktop/about-us/assets/tether/tether.min.css",
+		"/C/Users/PRANAY/Desktop/about-us/assets/dropdown/css/style.css",
+		"/C/Users/PRANAY/Desktop/Adhyaaya webs/index.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya webs/css/style.css",
+		"/C/Users/PRANAY/Desktop/Adhyaaya webs/events-page/technicalpage/TECHNICAL/BRIDGE-O-CRAFT.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya webs/events-page/technicalpage/tlink.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya webs/cert.html",
+		"/H/Adhyaaya webs/index.html",
+		"/C/Users/PRANAY/Desktop/home-page/css/style.css",
+		"/C/Users/PRANAY/Desktop/Adhyaaya webs/about-page/about.html",
+		"/J/Adhyaaya webs/about-page/about.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya webs/events-page/nontechnicalpage/non_tlink.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya website/css/style.css",
+		"/C/Users/PRANAY/Desktop/Adhyaaya website/index.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya website/events-page/event.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya website/events-page/nontechnicalpage/NON_TECHNICAL/BCL1.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya website/events-page/scss/style.scss",
+		"/C/Users/PRANAY/Desktop/Adhyaaya website/home-page/index.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya website/home-page/README.md",
+		"/C/Users/PRANAY/Desktop/Adhyaaya website/home-page/css/style.css",
+		"/J/Adhyaaya website/home-page/index.html",
+		"/J/Adhyaaya website/sponsor-page/error.html",
+		"/J/Adhyaaya website/home-page/css/style.css",
+		"/J/about-us/index.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/events/technicalpage/tlink.html",
+		"/C/Users/PRANAY/Desktop/Adhyaaya website/events-page/nontechnicalpage/non_tlink.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/events/workshoppage/w_link.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/events/nontechnicalpage/non_tlink.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/index.html",
+		"/C/Users/PRANAY/Desktop/Form/css/main.css",
+		"/C/Users/PRANAY/Desktop/Form/form.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/events/nontechnicalpage/NON_TECHNICAL/BCL1.html",
+		"/J/Adhyaaya website/events-page/workshoppage/w_link.html",
+		"/J/Adhyaaya website/events-page/event.html",
+		"/J/Adhyaaya website/events-page/nontechnicalpage/non_tlink.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/events/event.html",
+		"/C/Users/PRANAY/Desktop/(OLD)ADHYAAYA WEB/index.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/css/style.css",
+		"/C/Users/PRANAY/Desktop/(OLD)ADHYAAYA WEB/css/style.css",
+		"/C/Users/PRANAY/Desktop/(OLD)ADHYAAYA WEB/scss/style.scss",
+		"/C/Users/PRANAY/Desktop/button/index.html",
+		"/C/Users/PRANAY/Desktop/Gallery-adhyaaya/css/gallery.css",
+		"/C/Users/PRANAY/Desktop/Gallery-adhyaaya/gallery.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/Gallery-adhyaaya/css/gallery.css",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/Gallery-adhyaaya/gallery.html",
+		"/C/Users/PRANAY/Desktop/templates/template/button-styles/index.html",
+		"/C/Users/PRANAY/Desktop/templates/template/button-styles/css/style.css",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/button-styles/index.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/button-styles/css/style.css",
+		"/C/Users/PRANAY/Desktop/templates/New folder/about-us-page-template/index.html",
+		"/C/Users/PRANAY/Desktop/New folder/about.html",
+		"/C/Users/PRANAY/Desktop/about.html",
+		"/C/Users/PRANAY/Desktop/about2.html",
+		"/C/Users/PRANAY/Desktop/templates/template/brotherlylove/brotherlylove/about.html",
+		"/C/Users/PRANAY/Desktop/templates/template/brotherlylove/brotherlylove/index.html",
+		"/C/Users/PRANAY/Desktop/templates/template/strategy/strategy/about.html",
+		"/C/Users/PRANAY/Desktop/templates/template/strategy/strategy/css/style.css",
+		"/C/Users/PRANAY/Desktop/templates/template/miresa/index.html",
+		"/C/Users/PRANAY/Desktop/button-styles/index.html",
+		"/C/Users/PRANAY/Desktop/button-styles/css/style.css",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB-20190114T063637Z-001/ADHYAAYA WEB/app2.js",
+		"/C/Users/PRANAY/Desktop/button-styles/js/index.js",
+		"/C/Users/PRANAY/Desktop/templates/template/star-trek-lcars-style-ghost-buttons/css/style.css",
+		"/C/Users/PRANAY/Desktop/templates/template/star-trek-lcars-style-ghost-buttons/index.html",
+		"/C/Users/PRANAY/Desktop/templates/template/star-trek-lcars-style-ghost-buttons/stylus/style.stylus",
+		"/C/Users/PRANAY/Desktop/(OLD)ADHYAAYA WEB/app2.js",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEB/css/style.css",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEB/index.html",
+		"/C/Windows/SoftwareDistribution/Download/d059a167f5236749ce4045ce6d6eb7b2/Metadata/UpdateAgent.dll",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEB/app2.js",
+		"/C/Users/PRANAY/Desktop/templates/New folder/coming-soon-template/assets/countdown/jquery.countdown.min.js",
+		"/C/Users/PRANAY/Desktop/get.c",
+		"/C/Users/PRANAY/Downloads/star-trek-lcars-style-ghost-buttons/css/get.c",
+		"/C/Users/PRANAY/Downloads/star-trek-lcars-style-ghost-buttons/css/style.css",
+		"/C/Users/PRANAY/Downloads/star-trek-lcars-style-ghost-buttons/index.html",
+		"/C/Users/PRANAY/Desktop/section.html",
+		"/C/Users/PRANAY/Desktop/templates/template/one-page-css-navigation/index.html",
+		"/C/Users/PRANAY/Desktop/templates/template/one-page-css-navigation/css/style.css",
+		"/C/Users/PRANAY/Desktop/adhy/homepage.html",
+		"/C/Users/PRANAY/Desktop/adhy/homepage.css",
+		"/C/Users/PRANAY/Desktop/practicetemp/New folder/3d-rotating-navigation-master/index.html",
+		"/C/Users/PRANAY/Desktop/practicetemp/New folder/3d-rotating-navigation-master/css/style.css",
+		"/C/Users/PRANAY/Desktop/ADHY WEBPAGE/css/style.css",
+		"/C/Users/PRANAY/Desktop/ADHY WEBPAGE/index.html",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB/app2.js",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB/css/style.css",
+		"/C/Users/PRANAY/Downloads/ADHYAAYA WEB/index.html",
+		"/C/Users/PRANAY/Downloads/ADHY WEBPAGE/index.html",
+		"/C/Users/PRANAY/Downloads/ADHY WEBPAGE/css/style.css",
+		"/C/Users/PRANAY/Desktop/templates/template/animated-text-fill-with-svg-text-practice/css/style.css",
+		"/C/Users/PRANAY/Desktop/templates/template/animated-text-fill-with-svg-text-practice/index.html",
+		"/C/Users/PRANAY/Desktop/templates/template/css-text-fx/index.html",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEB/scss/style.scss",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEB/js/jquery-2.1.1.js",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEBPAGE/app1.js",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEBPAGE/css/style.css",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEBPAGE/index.html",
+		"/C/Users/PRANAY/Desktop/AA homepage/New folder/3d-rotating-navigation-master/css/style.css",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEB/partials/_layout.scss",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEB/partials/_variables.scss",
+		"/C/Users/PRANAY/Desktop/ADHYAAYA WEB/partials/_mixins.scss",
+		"/C/Users/PRANAY/Desktop/my webpage/index.html",
+		"/C/Users/PRANAY/Desktop/AA homepage/New folder/3d-rotating-navigation-master/index.html",
+		"/C/Users/PRANAY/Desktop/3d-rotating-navigation-master/css/style.css",
+		"/C/Users/PRANAY/Desktop/tutorial of html and css/New folder/css/style.css",
+		"/C/Users/PRANAY/Desktop/3d-rotating-navigation-master/app1.js",
+		"/C/Users/PRANAY/Desktop/3d-rotating-navigation-master/index.html",
+		"/C/Users/PRANAY/Desktop/tutorial of html and css/New folder/index.html",
+		"/C/Users/PRANAY/Desktop/adhy/app.js",
+		"/C/Users/PRANAY/Desktop/adhy/particles.min.js",
+		"/C/Users/PRANAY/Desktop/adhy/homepage.js",
+		"/C/Users/PRANAY/Desktop/AA homepage/New folder/3d-rotating-navigation-master/scss/style.scss",
+		"/C/Users/PRANAY/Desktop/AA homepage/ho/style.css",
+		"/C/Users/PRANAY/Desktop/AA homepage/ho/js/app.js",
+		"/C/Users/PRANAY/Desktop/AA homepage/ho/index.html",
+		"/C/Users/PRANAY/Desktop/AA homepage/New folder/js/index.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hover",
+			"btn",
+			"carousel slide",
+			"carousel-item",
+			"mbri-arrow",
+			"mbri-arrow-prev mbr-iconfont",
+			"sr-only",
+			"mbr-white"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

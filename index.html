@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"><!--social-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'><!---TEXT-ANIMATE-->
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	<title>Adhyaaya</title>
+
+	<style media="screen">
+	#particles-js{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+
+		}
+	</style>
+	
+  
+</head>
+<!------------Body------------------------------------------------------->    
+<body onload="myFunction()">
+<div id="loading"></div>
+	<div id="particles-js">
+	<header class="cd-header">
+		<a href="#0" class="cd-logo"><img src="img/cl-logo.png" srcset='img/cl-logo.png 1x,
+              img/cl-logo.png 2x'
+       style='max-width:500px'alt="Logo"></a>
+				<a href="#0" class="c-logo"><img src="img/cd.png" srcset='img/cd.png 1x,
+              img/cd.png 2x'
+       style='max-width:500px' alt="Logo"></a>
+		<a href="#0" class="cd-3d-nav-trigger">
+			Menu
+			<span></span>
+		</a>
+	</header> <!-- .cd-header -->
+
+	<!-----------Social Buttons-------------------------------------------------------------->
+	<div class="s-m">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+
+<!-----------------------Text Animation------------->
+        
+<div class="" id="particles1-js">
+<main class="heading">
+		<svg viewBox="0 0 600 300">
+  <!-- Symbol-->
+  <symbol id="s-text">
+    <text text-anchor="middle" x="50%" y="40%" dy=".35em">ADHYAAYA'19</text>
+  </symbol>
+  <!-- Duplicate symbols-->
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+</svg>
+	</main>
+</div>
+        
+<!------------------Navbar------------------->
+        
+	<nav class="cd-3d-nav-container">
+		<ul class="cd-3d-nav">
+			<li class="cd-selected">
+				<a href="#">Home</a>
+			</li>
+
+			<li>
+				<a href="events-page/event.html">Events</a>
+			</li>
+
+			<li>
+				<a href="gallery-page/gallery.html">Gallery</a>
+			</li>
+
+			<li>
+				<a href="ido.html">Sponsors</a>
+			</li>
+
+			<li>
+				<a href="about-page/about.html">About us</a>
+			</li>
+		</ul> <!-- .cd-3d-nav -->
+
+		<span class="cd-marker color-1"></span>
+	</nav> <!-- .cd-3d-nav-container -->
+        
+        
+<!--------------------js-script---------------------->
+        
+        
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script type="text/javascript" src="particles.js" ></script>
+<script type="text/javascript" src="app2.js"></script>
+        
+        
+
+<!---------Preloader-Script--------------------------------->
+        
+<script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+        
+<!------------------------------------------------------->
+       </div> 
+</body>
+</html>

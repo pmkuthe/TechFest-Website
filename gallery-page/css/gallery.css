@@ -1,0 +1,22 @@
+body{
+ font-family: 'ZCOOL QingKe HuangYou', cursive;
+ font-size: 5em;
+}
+h1{
+    text-align: center;
+    color: #6df73b;
+    margin: 30px 0 50px;
+    font-weight: 50;
+}
+.gallery{
+    marging: 10px 50px;
+}
+.gallery img{
+    padding: 5px;
+    filter: grayscale(100%);
+    transition:1s;
+}
+.gallery img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}  

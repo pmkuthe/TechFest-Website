@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Register</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/register.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+
+<style>
+
+
+
+
+
+label{
+margin:40px;
+padding:0em 10em;}
+
+
+.radiocontainer{
+dispaly:inline-block;
+position:relative;
+cursor:pointer;
+font-size:22px;
+user-select:none;
+padding-left:30px;}
+
+.radiocontainer input{
+display:none;}
+
+.radiocontainer .circle{
+display:inline-block;
+width:25px;
+height:25px;
+background-color:grey;
+position:absolute;
+left:0;
+top:0;
+border-radius:50%;}
+
+.radiocontainer:hover .circle{
+background-color:#cccccc;}
+
+.radiocontainer input:checked  + .circle{
+background-color:#66cccc;}
+
+.radiocontainer input:checked + .circle:after{
+content:"";
+height:10px;
+width:10px;
+background-color:#0e2f44;
+position:absolute;
+border-radius:50%;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);}
+
+#hide{
+  display:none;
+  margin:0 0 60px;;
+  padding:0;
+  width: 40%;
+  min-height: 30vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #e6e6e6;
+  box-shadow:0 30px 20px rgba(0,0,0,0.5);
+}
+
+#iam{
+  display:block;
+  margin:90px 0 0 40px;
+  padding:0;
+  width: 30%;
+  float:left;
+  min-height: 40vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #e6e6e6;
+  box-shadow:0px 10px 10px 5px rgba(0,0,0,0.5);
+}
+img {
+ height: 30vh;
+ width: 100%;
+}
+
+
+#notme{
+  display:block;
+  margin:90px 40px 0 0px;
+  padding:0px;
+  float:right;
+  width: 30%;
+  min-height: 40vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #e6e6e6;
+  box-shadow:0px 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+#meme{
+display:flex;
+text-align:;
+margin:150px 0 0 75px;
+font-size:2em;
+float:left;}
+
+
+#sex{
+  display:none;
+  margin:0 0 60px;;
+  padding:0;
+  width: 40%;
+  min-height: 30vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #e6e6e6;
+  box-shadow:0 30px 20px rgba(0,0,0,0.5);
+}
+
+#blow{
+  display:block;
+  margin:90px 0 0 40px;
+  padding:0;
+  width: 30%;
+  float:left;
+  min-height: 40vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #e6e6e6;
+  box-shadow:0px 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+#hand{
+  display:block;
+  margin:90px 40px 0 0px;
+  padding:0px;
+  float:right;
+  width: 30%;
+  min-height: 40vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #e6e6e6;
+  box-shadow:0px 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+
+#instr{
+  margin:0 0 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+	color: white;
+  box-shadow:0 50px 70px rgba(0,0,0,0.5);
+  border-radius:10%;
+}
+
+#inner-info img{
+height:50vh;
+width:40vh;
+margin-left:30px;}
+
+#inner-info{
+	margin-top:30px;
+}
+#aaja{
+display:flex;
+text-align:;
+margin:150px 0 0 75px;
+font-size:2em;
+float:left;}
+
+#hide span {
+text-align:center;
+margin:60px 0 20px 260px;
+float :left;
+text-align:center;}
+
+span{
+padding:0;
+margin:0;
+text-decoration:bold;
+font-size:1.4em}
+
+
+</style>
+
+<script>
+function show(x){
+if(x==0){
+document.getElementById('hide').style.display='block';
+}
+else{
+document.getElementById('sex').style.display='block';
+}
+}
+</script>
+
+</head>
+<body>
+
+
+
+	<div class="container-contact100">
+
+
+	<div id="instr">
+	  <div id="inner-info">
+	  <h1>Instruction :-</h1>
+	   1.<I> If you are participating in a team event, then each individual should fill the <b><u>"form seperately"</u></b>,
+          the payment will be done by the team <b>Leader</b>,<br>  &nbsp &nbsp and the <b>Transaction Id</b> will remain same for all team
+          members filling the form.</I>
+       <br>
+	   2. If you are paying through <b>Paytm</b>, then the transaction id will refer to :
+       <br>
+	   <img src="../Form-page/images/paytmid.jpg">
+		<br>
+	   3. if you are paying through <b>Google-Pay</b>, then the transaction id will refer to :
+	   <br>
+	   <img src="../Form-page/images/paytminst.jpeg">
+	  </div>
+
+	</div>
+
+
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Registration Form
+				</span>
+
+
+				<div class="label-input100" style="font-size:1.5em;margin:10px 0 20px 0">
+				Personal Details :-
+				</div>
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+					<span class="label-input100">FULL NAME *</span>
+					<input class="input100" type="text" name="name" placeholder="Enter Your Name">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email (e@a.x)">
+					<span class="label-input100">Email *</span>
+					<input class="input100" type="text" name="email" placeholder="Enter Your Email ">
+				</div>
+
+
+			    <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="+91 XXXXXXXXXX">
+					<span class="label-input100">Phone *</span>
+					<input class="input100" type="text" name="phone" placeholder="Enter Phone Number">
+				</div>
+
+                <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Branch Name">
+					<span class="label-input100">Branch *</span>
+					<input class="input100" type="text" name="Branch" placeholder="Enter Your Branch">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Year">
+					<span class="label-input100">Year *</span>
+					<input class="input100" type="text" name="Year" placeholder="Enter Your Year">
+				</div>
+
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+					<span class="label-input100">College Name *</span>
+					<input class="input100" type="text" name="name" placeholder="Enter Your College Name">
+				</div>
+
+				<div class="label-input100" style="font-size:1.5em;margin:40px 0px 14px 0px;">
+				Competition & Workshop :-
+				</div>
+
+				<div class="wrap-input101 input100-select bg1">
+					<span class="label-input100">Competition & Workshop</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Please chooses</option>
+							<option>AVISHKAR</option>
+							<option>BORN PSYCHOS</option>
+							<option>BRIDGEWARS</option>
+							<option>CODE-HUNT</option>
+							<option>CRICBASH</option>
+							<option>RAVIC</option>
+							<option>RESPAWN</option>
+							<option>ROBO SOCCER</option>
+							<option>VIRTUAL PLACEMENT</option>
+							<option>ASTRONOMY</option>
+							<option>CIVIL</option>
+							<option>IC-ENGINE</option>
+							<option>WORKFLOW</option>
+						</select>
+
+
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+
+
+				<!--<div class="label-input100" style="font-size:1.5em;margin:40px 0px 14px 0px;">
+				Workshop :-
+				</div>
+
+
+				<div class="wrap-input101 input100-select bg1">
+					<span class="label-input100">Workshop</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Please chooses</option>
+							<option>ASTRONOMY</option>
+							<option>CIVIL</option>
+							<option>IC-ENGINE</option>
+							<option>WORKFLOW</option>
+						</select>
+
+
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>-->
+
+				<!--<div class="wrap-input101 input100-select bg1">
+					<span class="label-input100">Workshop</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Please chooses</option>
+							<option>event 1</option>
+							<option>event 2</option>
+							<option>event 3</option>
+							<option>event 4</option>
+						</select>
+
+
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>-->
+
+
+				<div class="w-full dis-none js-show-service">
+					<div class="wrap-contact100-form-radio">
+						<span class="label-input100"></span>
+
+						<!--<div class="contact100-form-radio m-t-15">
+							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+							<label class="label-radio100" for="radio1">
+								Phycical Products
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								Digital Products
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio3" type="radio" name="type-product" value="service">
+							<label class="label-radio100" for="radio3">
+								Services Consulting
+							</label>
+						</div>
+					</div>
+
+					<div class="wrap-contact100-form-range">
+						<span class="label-input100">Budget *</span>
+
+						<div class="contact100-form-range-value">
+							$<span id="value-lower">610</span> - $<span id="value-upper">980</span>
+							<input type="text" name="from-value">
+							<input type="text" name="to-value">
+						</div>
+
+						<div class="contact100-form-range-bar">
+							<div id="filter-bar"></div>
+						</div>-->
+					</div>
+				</div>
+
+				 <div class="label-input100" style="font-size:1.5em;margin:40px 0 0 0">
+				 Choose your Mode of payment :-
+				 </div>
+
+				<div>
+				<label class="radiocontainer">
+				<input type="radio" name="gender" value="male" onclick="show(0)">
+				Paytm
+				<span class="circle"></span>
+				</label>
+
+				<div id="hide">
+					<img src="../Form-page/images/paytm.jpeg">
+				</div>
+
+
+				<label class="radiocontainer">
+				<input type="radio" name="gender" value="female" onclick="show(1)">
+				GooglePay
+				<span class="circle"></span>
+				</label>
+
+				<div id="sex">
+						<img src="../Form-page/images/gpay.jpeg">
+				</div>
+
+			</div>
+				<div class="wrap-input100 validate-input bg1" data-validate="Transaction Id">
+					<span class="label-input100">TRANSACTION Id / RECEIPT NUMBER *</span>
+					<input class="input100" type="text" name="name" placeholder="Transaction Id">
+				</div>
+
+
+				<!--<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
+					<span class="label-input100">Message</span>
+					<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+				</div>-->
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							Submit
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+
+
+			$(".js-select2").each(function(){
+				$(this).on('select2:close', function (e){
+					if($(this).val() == "Please chooses") {
+						$('.js-show-service').slideUp();
+					}
+					else {
+						$('.js-show-service').slideUp();
+						$('.js-show-service').slideDown();
+					}
+				});
+			});
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/noui/nouislider.min.js"></script>
+	<script>
+	    var filterBar = document.getElementById('filter-bar');
+
+	    noUiSlider.create(filterBar, {
+	        start: [ 1500, 3900 ],
+	        connect: true,
+	        range: {
+	            'min': 1500,
+	            'max': 7500
+	        }
+	    });
+
+	    var skipValues = [
+	    document.getElementById('value-lower'),
+	    document.getElementById('value-upper')
+	    ];
+
+	    filterBar.noUiSlider.on('update', function( values, handle ) {
+	        skipValues[handle].innerHTML = Math.round(values[handle]);
+	        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
+	        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
+	    });
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
